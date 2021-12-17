@@ -1,3 +1,3 @@
-files from intro to programming
+Files from OCCC Intro to Programming.
 
-basic programing concepts
+Basic programing concepts
