@@ -1,0 +1,22 @@
+// this is a wage calculator
+#include <iostream>
+using namespace std;
+int main()
+{
+	// declairing variables
+	float payAmount;
+	float payPeriods;
+	float annualPay;
+	
+	//input and output
+	cout << "Hello welcome to the Annual wage calculator" << endl;
+	cout << "How many pay periods per year do you expect?" << endl;
+	cin >> payPeriods;
+	cout << "How much do you bring home per pay period?" << endl;
+	cin >> payAmount;
+	
+	annualPay = payAmount * payPeriods; // annual pay calculation
+
+	cout << "your annual salary is $" << annualPay << endl;
+	return 0;
+}
